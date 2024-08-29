@@ -34,9 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          -name: show file 
-            run: cat customer.java.txt
-          -name: open file
-            run: touch customer.java.txt
+          cat customer.java.txt
+          touch customer.java.txt
          
       
