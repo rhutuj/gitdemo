@@ -27,6 +27,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: show date
         run: date
+      - name: open the file
+        run: mkdir filename
+      - name: open file
+        run: cd filename
        
 
       # Runs a set of commands using the runners shell
@@ -36,5 +40,6 @@ jobs:
           echo test, and deploy your project.
           cat customer.java.txt
           touch customer.java.txt
+          
          
       
